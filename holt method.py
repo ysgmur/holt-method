@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_absolute_percentage_error
 
 # Load data from Excel sheetDesktop\
-excel_file = r'C:\Users\yagmur\Desktop\TR-GNP.xlsx'
-data = pd.read_excel(excel_file, names=['Year', 'GNP', 'iGNPi'])
+excel_file = r'path-of-your-data-set'
+data = pd.read_excel(excel_file, names=['Year', 'GNP', 'iGNPi']) #column names of my dataset
 
 
 def least_squares_regression(data):
